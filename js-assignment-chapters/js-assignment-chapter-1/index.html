@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALERT</title>
+
+
+    <!-- css custom -->
+    <link rel="stylesheet" href="./style.css">
+
+
+<!-- 7. Practice placement of <script></script> element infollowing sections of your project in exercise 6: -->
+<!-- a. Head -->
+    <script>
+        alert("This is from the Head!")
+    </script>
+</head>
+<body>
+<!-- b. Body (before your page’s HTML) -->
+    <script>
+        alert("This is before HTML content!");
+    </script>
+    
+
+<!-- c. Body (inside your page’s HTML) -->
+    <button onclick="alert('This is inside page HTML!')">Click Me</button>
+
+
+<!-- 6. Make use of alerts in your new/existing HTML & CSSproject. 
+        first un-comment the div below--> 
+     <!-- <div class="alert-by-onclick ">
+        <h1>Chapter 1</h1>
+        <h4>Alert</h4>
+        <p>The alert() function in JavaScript is used to display a simple message box to the user. It shows a pop-up dialog with a specified message and an OK button.</p>
+        <button onclick="alert('Thankyou for response!')" >Click here</button>
+    </div>  -->
+        
+
+<!-- d. Body (after your page’s HTML) -->
+    <script>
+        alert("This runs after all HTML content is loaded.");
+    </script>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
